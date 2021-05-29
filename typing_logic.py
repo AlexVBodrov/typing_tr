@@ -9,7 +9,7 @@ all_sim = "asdfghjklzxcvbnmqwertyuiop"
 list_letter = [s_midl, s_low, s_upp, all_sim]
 level = 0
 count_attempt = 16
-count_len = 2
+count_len = 12
 
 # random.sample(population, k) - список длиной k из последовательности population. Значение не повторяються.
 # psw = ''.join([random.choice(ls) for x in range(12)]) значения могут повторяться.
