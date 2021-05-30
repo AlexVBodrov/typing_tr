@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtCore" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtDBus" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtGui" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtHelp" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtNetwork" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtNfc" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtOpenGL" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtQml" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtQuick" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtQuick3D" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtSql" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtSvg" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtTest" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/bindings/QtXml" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/qml/QtGraphicalEffects/private" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/qml/QtQml/Models.2" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/qml/QtQml/RemoteObjects" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/qml/QtQml/StateMachine" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/qml/QtQml/WorkerScript.2" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/qml/QtQuick3D/designer" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/qml/QtQuick3D/Effects" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/qml/QtQuick3D/Helpers" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/qml/QtQuick3D/Materials" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/qml/Qt" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/qml/QtQuick" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/plugins" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt5/translations" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/Qt" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5/uic" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/_distutils_hack" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/pip" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/pip-21.1.1.dist-info" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/pkg_resources" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5-5.15.4.dist-info" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5_Qt5-5.15.2.dist-info" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/PyQt5_sip-12.9.0.dist-info" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/setuptools" />
+      <excludeFolder url="file://$MODULE_DIR$/Lib/site-packages/setuptools-56.2.0.dist-info" />
+      <excludeFolder url="file://$MODULE_DIR$/Scripts" />
+    </content>
     <orderEntry type="jdk" jdkName="Python 3.9 (typing_tr)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

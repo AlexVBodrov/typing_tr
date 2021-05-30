@@ -18,7 +18,7 @@ for i in range(0, count_attempt):
     s_question = ''.join([random.choice(list_letter[level]) for _ in range(count_len)])
 
     print("      ", s_question)
-    s_ask = input("введите даный текст : \n      ")
+    s_ask = input("введите даный текст : \n       ")
 
     if s_ask == s_question:
         print("ok")
