@@ -46,11 +46,12 @@ for i in range(0, count_attempt):
         s_question = s_question.replace(' ', '')
     if s_question[-1] == " ":
         s_question = s_question.replace(' ', '')
+    s_question = s_question.replace('  ', ' ')
 
     print("      ", s_question)
     s_ask = input("       введите даный текст:\n       ")
     if s_ask == s_question:
-        print("ok")
+        print("   ok")
         count_attempt -= 1
         score += 1
 
@@ -62,4 +63,4 @@ for i in range(0, count_attempt):
             level = 3
     else:
         print("ERROR! try another")
-print(score)
+print(f'score = {score}')
