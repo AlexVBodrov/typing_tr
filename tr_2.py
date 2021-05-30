@@ -1,4 +1,5 @@
 import random
+from time import sleep
 
 list_letter = ['e ', ' t', 'he', 'th', ' a', 'd ', 't ', 'er', 's ', 'in', ' h', ' th', ', ', ' w', ' s', 'an',
                'r ', 'n ', 'y ', 're', 'the', 'he ', ' o', 'ha', 'o ', 'ou', 'en', 'on', ' i', 'nd', 'at', 'ed',
@@ -36,7 +37,7 @@ list_letter = ['e ', ' t', 'he', 'th', ' a', 'd ', 't ', 'er', 's ', 'in', ' h',
                'e e', 'e r', 'et ', 'd.', 'ous', 'gl', 'ned', ' mi', 'hem', 'ind', 'fro', 'app', 'ust',
                'ty ', 'arc', 'y h', 'sed', 'rie', 's h', 'e l', 'ort', 'kn', 'ove', 'nes', 'n w', ' go',
                'r o', 'r f', 'h t', 'eli', 'o s', ' da', 'wn', 'hei', 'rl', 'out', 'sin', ' am', 'sur']
-count_attempt = 16
+count_attempt = 10
 count_len = 10
 score = 0
 for i in range(0, count_attempt):
@@ -54,13 +55,7 @@ for i in range(0, count_attempt):
         print("   ok")
         count_attempt -= 1
         score += 1
-
-        if count_attempt < 13:
-            level = 1
-        if count_attempt < 9:
-            level = 2
-        if count_attempt < 5:
-            level = 3
     else:
         print("ERROR! try another")
-print(f'score = {score}')
+print(f'    Score = {score} from {count_attempt}')
+sleep(10)
